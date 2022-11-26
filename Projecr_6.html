@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="Project_6.css">
+        <script src="Project_6.js"></script>
+        <title>Survivor Game</title>
+    </head>
+    <body>
+        <h1 class="container">Survivor Game</h1><br>
+        <form id="form" name="form" class="container">
+            <div>
+                <label for="soldier">Number of Soldiers:</label>
+                <input id="soldier" type="Number" name="soldier">
+            </div>
+            <div>
+                <label for="sword">Soldier with Sword:</label>
+                <input id="sword" type="Number" name="sword">
+            </div>
+            <div>
+                <button type="button" onclick="survive()">Find the Surviver</button>
+            </div>
+            <div>
+                <label for="result">Survived Soldier:</label>
+                <input type="text" name="result" readonly>
+            </div>
+
+
+        </form>
+    </body>
+</html>
